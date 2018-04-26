@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Transition" parent="AppTheme">
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">
+            @transition/exit
+        </item>
+    </style>
+</resources>
